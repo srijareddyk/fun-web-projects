@@ -79,3 +79,13 @@ button:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px #ce93d8, 0 0 10px #fff inset;
 }
+
+#mode-selection {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #6a1b9a;
+}
+
+#mode-selection label {
+  margin: 0 15px;
+}

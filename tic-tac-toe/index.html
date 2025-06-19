@@ -7,6 +7,12 @@
 </head>
 <body>
   <h1>💅tic tac toe💅</h1>
+
+  <div id="mode-selection">
+    <label><input type="radio" name="mode" value="2p" checked> 2 players 😗</label>
+    <label><input type="radio" name="mode" value="bot"> play against ai 😈</label>
+  </div>
+
   <div id="game">
     <div class="cell" data-index="0"></div>
     <div class="cell" data-index="1"></div>
@@ -18,7 +24,8 @@
     <div class="cell" data-index="7"></div>
     <div class="cell" data-index="8"></div>
   </div>
-  <h2 id="status">Player 🎀's Turn</h2>
+
+  <h2 id="status">player 🎀's turn</h2>
   <button id="restart">💖restart🔁</button>
 
   <script src="script.js"></script>
